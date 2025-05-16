@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ProjectItem Type="Microsoft.VisualStudio.SharePoint.VisualWebPart" DefaultFile="ThankYouUserControl.ascx" SupportedTrustLevels="FullTrust" SupportedDeploymentScopes="Site" xmlns="http://schemas.microsoft.com/VisualStudio/2010/SharePointTools/SharePointProjectItemModel">
+  <Files>
+    <ProjectItemFile Source="Elements.xml" Target="ThankYou\" Type="ElementManifest" />
+    <ProjectItemFile Source="ThankYou.webpart" Target="ThankYou\" Type="ElementFile" />
+    <ProjectItemFile Source="ThankYouUserControl.ascx" Target="CONTROLTEMPLATES\BART.SP.OCR.CP.Web\ThankYou\" Type="TemplateFile" />
+  </Files>
+  <SafeControls>
+    <SafeControl Name="SafeControlEntry1" Assembly="$SharePoint.Project.AssemblyFullName$" Namespace="BART.SP.OCR.CP.Web.ThankYou" TypeName="*" IsSafe="true" IsSafeAgainstScript="false" />
+  </SafeControls>
+</ProjectItem>
