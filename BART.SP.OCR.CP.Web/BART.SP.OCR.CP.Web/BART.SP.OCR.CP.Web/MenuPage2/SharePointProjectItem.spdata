@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ProjectItem Type="Microsoft.VisualStudio.SharePoint.VisualWebPart" DefaultFile="MenuPage2UserControl.ascx" SupportedTrustLevels="FullTrust" SupportedDeploymentScopes="Site" xmlns="http://schemas.microsoft.com/VisualStudio/2010/SharePointTools/SharePointProjectItemModel">
+  <Files>
+    <ProjectItemFile Source="Elements.xml" Target="MenuPage2\" Type="ElementManifest" />
+    <ProjectItemFile Source="MenuPage2.webpart" Target="MenuPage2\" Type="ElementFile" />
+    <ProjectItemFile Source="MenuPage2UserControl.ascx" Target="CONTROLTEMPLATES\BART.SP.OCR.CP.Web\MenuPage2\" Type="TemplateFile" />
+  </Files>
+  <SafeControls>
+    <SafeControl Name="SafeControlEntry1" Assembly="$SharePoint.Project.AssemblyFullName$" Namespace="BART.SP.OCR.CP.Web.MenuPage2" TypeName="*" IsSafe="true" IsSafeAgainstScript="false" />
+  </SafeControls>
+</ProjectItem>
