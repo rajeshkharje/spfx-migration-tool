@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="7035a664-13bb-4e8f-b61d-721de4a53dd9" solutionId="7035a664-13bb-4e8f-b61d-721de4a53dd9" resetWebServer="false" sharePointProductVersion="15.0" name="BART.SP.OCR.CP.Web" xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel">
+  <features>
+    <featureReference itemId="d40a0e39-2800-4f07-85e5-dc16df30d46a" />
+  </features>
+  <projectItems>
+    <projectItemReference itemId="d2a1c9cc-5eec-490b-88e5-dc931e1c85dc" />
+  </projectItems>
+</package>
