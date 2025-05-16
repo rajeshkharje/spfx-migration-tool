@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Solution xmlns="http://schemas.microsoft.com/sharepoint/" SolutionId="7035a664-13bb-4e8f-b61d-721de4a53dd9" SharePointProductVersion="15.0">
+  <Assemblies>
+    <Assembly Location="BART.SP.OCR.CP.Web.dll" DeploymentTarget="GlobalAssemblyCache">
+      <SafeControls>
+        <SafeControl Assembly="BART.SP.OCR.CP.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=9abfeb7dc254e359" Namespace="BART.SP.OCR.CP.Web.ApprovalList" TypeName="*" />
+        <SafeControl Assembly="BART.SP.OCR.CP.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=9abfeb7dc254e359" Namespace="BART.SP.OCR.CP.Web.CreateNew" TypeName="*" />
+        <SafeControl Assembly="BART.SP.OCR.CP.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=9abfeb7dc254e359" Namespace="BART.SP.OCR.CP.Web.Edit" TypeName="*" />
+        <SafeControl Assembly="BART.SP.OCR.CP.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=9abfeb7dc254e359" Namespace="BART.SP.OCR.CP.Web.Help" TypeName="*" />
+        <SafeControl Assembly="BART.SP.OCR.CP.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=9abfeb7dc254e359" Namespace="BART.SP.OCR.CP.Web.MasterList" TypeName="*" />
+        <SafeControl Assembly="BART.SP.OCR.CP.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=9abfeb7dc254e359" Namespace="BART.SP.OCR.CP.Web.MenuPage1" TypeName="*" />
+        <SafeControl Assembly="BART.SP.OCR.CP.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=9abfeb7dc254e359" Namespace="BART.SP.OCR.CP.Web.MenuPage2" TypeName="*" />
+        <SafeControl Assembly="BART.SP.OCR.CP.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=9abfeb7dc254e359" Namespace="BART.SP.OCR.CP.Web.MenuPage3" TypeName="*" />
+        <SafeControl Assembly="BART.SP.OCR.CP.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=9abfeb7dc254e359" Namespace="BART.SP.OCR.CP.Web.Print" TypeName="*" />
+        <SafeControl Assembly="BART.SP.OCR.CP.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=9abfeb7dc254e359" Namespace="BART.SP.OCR.CP.Web.Proxies" TypeName="*" />
+        <SafeControl Assembly="BART.SP.OCR.CP.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=9abfeb7dc254e359" Namespace="BART.SP.OCR.CP.Web.RequesterWaitList" TypeName="*" />
+        <SafeControl Assembly="BART.SP.OCR.CP.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=9abfeb7dc254e359" Namespace="BART.SP.OCR.CP.Web.Route" TypeName="*" />
+        <SafeControl Assembly="BART.SP.OCR.CP.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=9abfeb7dc254e359" Namespace="BART.SP.OCR.CP.Web.ThankYou" TypeName="*" />
+        <SafeControl Assembly="BART.SP.OCR.CP.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=9abfeb7dc254e359" Namespace="BART.SP.OCR.CP.Web.View" TypeName="*" />
+      </SafeControls>
+    </Assembly>
+  </Assemblies>
+  <TemplateFiles>
+    <TemplateFile Location="CONTROLTEMPLATES\BART.SP.OCR.CP.Web\ApprovalList\ApprovalListUserControl.ascx" />
+    <TemplateFile Location="CONTROLTEMPLATES\BART.SP.OCR.CP.Web\CreateNew\CreateNewUserControl.ascx" />
+    <TemplateFile Location="CONTROLTEMPLATES\BART.SP.OCR.CP.Web\Edit\EditUserControl.ascx" />
+    <TemplateFile Location="CONTROLTEMPLATES\BART.SP.OCR.CP.Web\Help\HelpUserControl.ascx" />
+    <TemplateFile Location="CONTROLTEMPLATES\BART.SP.OCR.CP.Web\MasterList\MasterListUserControl.ascx" />
+    <TemplateFile Location="CONTROLTEMPLATES\BART.SP.OCR.CP.Web\MenuPage1\MenuPage1UserControl.ascx" />
+    <TemplateFile Location="CONTROLTEMPLATES\BART.SP.OCR.CP.Web\MenuPage2\MenuPage2UserControl.ascx" />
+    <TemplateFile Location="CONTROLTEMPLATES\BART.SP.OCR.CP.Web\MenuPage3\MenuPage3UserControl.ascx" />
+    <TemplateFile Location="CONTROLTEMPLATES\BART.SP.OCR.CP.Web\Print\PrintUserControl.ascx" />
+    <TemplateFile Location="CONTROLTEMPLATES\BART.SP.OCR.CP.Web\Proxies\ProxiesUserControl.ascx" />
+    <TemplateFile Location="CONTROLTEMPLATES\BART.SP.OCR.CP.Web\RequesterWaitList\RequesterWaitListUserControl.ascx" />
+    <TemplateFile Location="CONTROLTEMPLATES\BART.SP.OCR.CP.Web\Route\RouteUserControl.ascx" />
+    <TemplateFile Location="CONTROLTEMPLATES\BART.SP.OCR.CP.Web\ThankYou\ThankYouUserControl.ascx" />
+    <TemplateFile Location="CONTROLTEMPLATES\BART.SP.OCR.CP.Web\View\ViewUserControl.ascx" />
+    <TemplateFile Location="Layouts\BART.SP.OCR.CP.Web\css\bootstrap-datepicker3.css" />
+    <TemplateFile Location="Layouts\BART.SP.OCR.CP.Web\css\OriginalCSS.css" />
+    <TemplateFile Location="Layouts\BART.SP.OCR.CP.Web\js\AppCore.js" />
+    <TemplateFile Location="Layouts\BART.SP.OCR.CP.Web\js\bootstrap-datepicker.min.js" />
+    <TemplateFile Location="Layouts\BART.SP.OCR.CP.Web\js\coreUI.js" />
+  </TemplateFiles>
+  <FeatureManifests>
+    <FeatureManifest Location="BART.SP.OCR.CP.Web_Feature1\Feature.xml" />
+  </FeatureManifests>
+</Solution>
