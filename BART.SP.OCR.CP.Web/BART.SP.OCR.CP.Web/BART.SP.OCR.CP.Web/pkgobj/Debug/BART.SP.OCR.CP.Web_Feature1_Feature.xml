@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Feature xmlns="http://schemas.microsoft.com/sharepoint/" Id="ab43a2f8-0c2d-428d-9e68-f00ebc1658df" Scope="Site" Title="BART.SP.OCR.CP.Web Feature1">
+  <ElementManifests>
+    <ElementManifest Location="ApprovalList\Elements.xml" />
+    <ElementFile Location="ApprovalList\ApprovalList.webpart" />
+    <ElementManifest Location="CreateNew\Elements.xml" />
+    <ElementFile Location="CreateNew\CreateNew.webpart" />
+    <ElementManifest Location="Edit\Elements.xml" />
+    <ElementFile Location="Edit\Edit.webpart" />
+    <ElementManifest Location="Help\Elements.xml" />
+    <ElementFile Location="Help\Help.webpart" />
+    <ElementManifest Location="MasterList\Elements.xml" />
+    <ElementFile Location="MasterList\MasterList.webpart" />
+    <ElementManifest Location="MenuPage1\Elements.xml" />
+    <ElementFile Location="MenuPage1\MenuPage1.webpart" />
+    <ElementManifest Location="MenuPage2\Elements.xml" />
+    <ElementFile Location="MenuPage2\MenuPage2.webpart" />
+    <ElementManifest Location="MenuPage3\Elements.xml" />
+    <ElementFile Location="MenuPage3\MenuPage3.webpart" />
+    <ElementManifest Location="Print\Elements.xml" />
+    <ElementFile Location="Print\Print.webpart" />
+    <ElementManifest Location="Proxies\Elements.xml" />
+    <ElementFile Location="Proxies\Proxies.webpart" />
+    <ElementManifest Location="RequesterWaitList\Elements.xml" />
+    <ElementFile Location="RequesterWaitList\RequesterWaitList.webpart" />
+    <ElementManifest Location="Route\Elements.xml" />
+    <ElementFile Location="Route\Route.webpart" />
+    <ElementManifest Location="ThankYou\Elements.xml" />
+    <ElementFile Location="ThankYou\ThankYou.webpart" />
+    <ElementManifest Location="View\Elements.xml" />
+    <ElementFile Location="View\View.webpart" />
+  </ElementManifests>
+</Feature>
