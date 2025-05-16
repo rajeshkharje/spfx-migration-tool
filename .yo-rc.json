@@ -1,0 +1,15 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "environment": "spo",
+    "version": "1.21.1",
+    "libraryName": "spfx-migration",
+    "componentType": "webpart",
+    "template": "react",
+    "componentName": "Migration",
+    "solutionName": "spfx-migration",
+    "skipFeatureDeployment": false,
+    "isDomainIsolated": false
+  }
+}
